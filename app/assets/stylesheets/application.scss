@@ -13,12 +13,16 @@
  * It is generally better to create a new file per style scope.
  *
  */
- body.namespace1 {
+ .namespace1 {
    font: 180% Helvetica, sans-serif;
    background-color: #ffffff;
  }
 
- body.namespace2 {
+ .namespace2 {
     font: 180% Helvetica, sans-serif;
     background-color: #efefef;
   }
+
+  body {
+     font: 180% Helvetica, sans-serif;
+   }
